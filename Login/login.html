@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="loginn.js">
+
+    </script>
+    
+</head>
+<body>
+    <b> Registration Form </b>
+   <form onSubmit="submitt()" >
+    <input type="text" name="name" placeholder="Enter your name" > <br>
+
+    <input type="text"name="userName" placeholder="Enter your userName" value=><br>
+    <input type="email" name="EmailID" maxlength="100" placeholder="xyz@gmail.com"/><br>
+    <input type="tel" name="Phone_number" placeholder="Phone_number"><br>
+    <input type="text" name="password" placeholder="Enter password" value=><br>
+    <input type="text" name="confirmPassword" placeholder="Enter your password again" value=><br>
+    <select  name="state">
+        <option value="">Select State</option>
+        <option value="BLOCK-A">Maha</option>
+        <option value="BLOCK-B">Guj</option>
+        <option value="BLOCK-C">Raj</option>
+    </select>
+    <div>
+         Gender
+        <input type="radio" name="Gender" value="Male" />
+        Male
+        <input type="radio" name="Gender" value="Female" />
+        Female
+
+    </div>
+    <input type="checkbox" name="Agree" value= />
+Agreement
+
+   
+   
+    
+
+<button type="submit" >Save </button>
+
+</form>
+    
+</body>
+</html>
